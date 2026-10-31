@@ -16,7 +16,7 @@ coffee_coop_db-> WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 coffee_coop_db-> AND T1.is_accepted = FALSE
 coffee_coop_db-> AND T1.observations IS NOT NULL
 coffee_coop_db-> ORDER BY T1.defects_pct DESC;
-      analysis      |      delivery       | moisture_pct | yield_factor | defects_pct |    analyst_name    |                observations
+/*      analysis      |      delivery       | moisture_pct | yield_factor | defects_pct |    analyst_name    |                observations
 --------------------+---------------------+--------------+--------------+-------------+--------------------+---------------------------------------------
  QA-20260930-000104 | DLV-20260930-000214 |        17.68 |        97.46 |       19.54 | Carolina RodrÃ­guez | Olor a fermento en la muestra.
  QA-20260930-000068 | DLV-20260930-000165 |        16.13 |       100.22 |       17.29 | GermÃ¡n PeÃ±a        | Muestra tomada por duplicado.
@@ -26,3 +26,4 @@ coffee_coop_db-> ORDER BY T1.defects_pct DESC;
  QA-20260930-000022 | DLV-20260930-000070 |        12.95 |       103.55 |        9.75 | Santiago Rojas     | CafÃ© con humedad alta, requiere mÃ¡s secado.
  QA-20260930-000018 | DLV-20260930-000006 |        17.24 |       103.31 |        7.88 | NicolÃ¡s Serrano    | CafÃ© con humedad alta, requiere mÃ¡s secado.
 (7 filas)
+*/

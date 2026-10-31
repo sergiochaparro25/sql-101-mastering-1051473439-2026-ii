@@ -13,7 +13,7 @@ FROM farm.farms AS T1
 WHERE T1.municipality_code = '54518'
 AND T1.altitude_masl > 1800
 ORDER BY T1.altitude_masl DESC;
-      farm      |    rural_district    | area_ha | altitude_masl
+/*      farm      |    rural_district    | area_ha | altitude_masl
 ----------------+----------------------+---------+---------------
  Santa Clara    | La Legua             |    2.62 |          2300
  El Guayabo     | El Rosal             |    1.21 |          2300
@@ -124,3 +124,4 @@ ORDER BY T1.altitude_masl DESC;
  Tierra Linda   | Tampanqueba          |    2.25 |          1808
  La Argentina   | PeÃ±as                |    3.33 |          1804
 (108 filas)
+*/

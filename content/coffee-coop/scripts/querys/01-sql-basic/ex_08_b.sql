@@ -11,7 +11,7 @@ coffee_coop_db->     T1.gross_weight_kg / T1.bag_count AS avg_kg_per_bag
 coffee_coop_db-> FROM buy.deliveries AS T1
 coffee_coop_db-> WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 coffee_coop_db-> AND T1.status = 'rejected';
-      delivery       | farm_id | collection_point_id |     received_at     |  coffee_type  | gross_weight_kg |   avg_kg_per_bag
+/*      delivery       | farm_id | collection_point_id |     received_at     |  coffee_type  | gross_weight_kg |   avg_kg_per_bag
 ---------------------+---------+---------------------+---------------------+---------------+-----------------+---------------------
  DLV-20260930-000253 |  143807 |                 102 | 2026-09-30 15:05:34 | dry_parchment |          253.15 | 50.6300000000000000
  DLV-20260930-000006 |   58408 |                 170 | 2026-09-30 06:11:03 | dry_parchment |          139.81 | 46.6033333333333333
@@ -23,3 +23,4 @@ coffee_coop_db-> AND T1.status = 'rejected';
  DLV-20260930-000214 |  223116 |                  44 | 2026-09-30 13:53:56 | dry_parchment |          177.63 | 59.2100000000000000
  DLV-20260930-000223 |  216415 |                  45 | 2026-09-30 14:19:21 | dry_parchment |          338.32 | 48.3314285714285714
 (9 filas)
+*/

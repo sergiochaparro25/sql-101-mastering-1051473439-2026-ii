@@ -10,7 +10,7 @@ coffee_coop_db-> FROM farm.farms AS T1
 coffee_coop_db-> WHERE T1.municipality_code = '54518'
 coffee_coop_db-> AND T1.altitude_masl BETWEEN 1600 AND 1800
 coffee_coop_db-> ORDER BY T1.rural_district ASC, T1.total_area_ha DESC;
-       farm       |    rural_district    | area_ha | altitude_masl
+/*       farm       |    rural_district    | area_ha | altitude_masl
 ------------------+----------------------+---------+---------------
  Los Pinos        | Alcaparral           |    1.67 |          1771
  Miraflores       | Alcaparral           |    1.29 |          1636
@@ -117,3 +117,4 @@ coffee_coop_db-> ORDER BY T1.rural_district ASC, T1.total_area_ha DESC;
  El Nogal         | Tampanqueba          |    2.27 |          1740
  El ArrayÃ¡n       | Tampanqueba          |    0.52 |          1730
 (104 filas)
+*/

@@ -11,7 +11,7 @@ coffee_coop_db-> FROM farm.farmers AS T1
 coffee_coop_db-> WHERE T1.municipality_code = '54518'
 coffee_coop_db-> AND T1.is_active = FALSE
 coffee_coop_db-> ORDER BY T1.membership_date ASC;
-  document  |    first_name    |     last_name      | membership_date | is_active
+/*  document  |    first_name    |     last_name      | membership_date | is_active
 ------------+------------------+--------------------+-----------------+-----------
  230971064  | Manuel           | Agudelo Jiménez    | 1997-03-29      | f
  534023693  | Myriam           | Valencia Moreno    | 1998-11-03      | f
@@ -35,3 +35,4 @@ coffee_coop_db-> ORDER BY T1.membership_date ASC;
  135734682  | Diego            | Rivera Jiménez     | 2018-03-26      | f
  914044314  | Ancízar Cristian | Polanía Delgado    | 2021-02-24      | f
 (21 filas)
+*/

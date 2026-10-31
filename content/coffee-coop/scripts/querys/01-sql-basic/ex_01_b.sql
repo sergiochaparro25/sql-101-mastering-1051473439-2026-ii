@@ -6,7 +6,7 @@ coffee_coop_db->        department_name AS department
 coffee_coop_db-> FROM geo.departments;
  code |                        department
 ------+----------------------------------------------------------
- 05   | Antioquia
+/* 05   | Antioquia
  08   | Atlántico
  11   | Bogotá, D.C.
  13   | Bolívar
@@ -39,3 +39,4 @@ coffee_coop_db-> FROM geo.departments;
  95   | Guaviare
  97   | Vaupés
  99   | Vichada
+ */

@@ -9,7 +9,7 @@ coffee_coop_db-> FROM buy.collection_points AS T1
 coffee_coop_db-> WHERE T1.is_active = FALSE
 coffee_coop_db-> OR T1.phone_number IS NULL
 coffee_coop_db-> ORDER BY T1.point_name ASC;
-             point              |        address         | phone_number | is_active
+/*             point              |        address         | phone_number | is_active
 --------------------------------+------------------------+--------------+-----------
  Punto de Compra Aipe 1         | Carrera 13 # 17-16     |              | t
  Punto de Compra Anserma 1      | Calle 39 # 7-96        |              | t
@@ -46,3 +46,4 @@ coffee_coop_db-> ORDER BY T1.point_name ASC;
  Punto de Compra Venecia 1      | Avenida 5 # 9-43       |              | t
  Punto de Compra Villa Rica 1   | Diagonal 6 # 8-43      |              | t
 (34 filas)
+*/

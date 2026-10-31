@@ -14,7 +14,7 @@ coffee_coop_db-> FROM pay.settlements AS T1
 coffee_coop_db-> WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 coffee_coop_db-> AND T1.status = 'pending'
 coffee_coop_db-> ORDER BY T1.net_amount DESC;
-     settlement      |      delivery       | net_weight_kg | price_per_kg | gross_cop  | deductions_cop |  net_cop
+/*     settlement      |      delivery       | net_weight_kg | price_per_kg | gross_cop  | deductions_cop |  net_cop
 ---------------------+---------------------+---------------+--------------+------------+----------------+------------
  STL-20261001-000040 | DLV-20260930-000256 |        278.85 |     21857.00 | 6094824.45 |           0.00 | 6094824.45
  STL-20261001-000057 | DLV-20260930-000105 |        272.29 |     22335.00 | 6081597.15 |       30583.21 | 6051013.94
@@ -44,3 +44,4 @@ coffee_coop_db-> ORDER BY T1.net_amount DESC;
  STL-20261001-000055 | DLV-20260930-000154 |         52.35 |     21750.00 | 1138612.50 |       19031.93 | 1119580.57
  STL-20261003-000008 | DLV-20260930-000064 |         49.98 |     21378.00 | 1068472.44 |           0.00 | 1068472.44
 (27 filas)
+*/

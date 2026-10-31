@@ -14,7 +14,7 @@ coffee_coop_db-> FROM buy.quality_analyses AS T1
 coffee_coop_db-> WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 coffee_coop_db-> AND T1.cup_score >= 85
 coffee_coop_db-> ORDER BY T1.cup_score DESC;
-      analysis      |      delivery       | moisture_pct | yield_factor | cup_score
+/*      analysis      |      delivery       | moisture_pct | yield_factor | cup_score
 --------------------+---------------------+--------------+--------------+-----------
  QA-20260930-000102 | DLV-20260930-000155 |        12.31 |        94.01 |     87.28
  QA-20260930-000082 | DLV-20260930-000111 |        12.38 |        94.29 |     87.18
@@ -28,3 +28,4 @@ coffee_coop_db-> ORDER BY T1.cup_score DESC;
  QA-20260930-000079 | DLV-20260930-000085 |        11.55 |        93.28 |     85.15
  QA-20260930-000113 | DLV-20260930-000223 |         9.57 |        99.70 |     85.05
 (11 filas)
+*/

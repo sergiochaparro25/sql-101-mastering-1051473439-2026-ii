@@ -7,7 +7,7 @@ coffee_coop_db->     T1.issuing_body AS issuer,
 coffee_coop_db->     T1.premium_per_kg AS premium_per_kg_cop,
 coffee_coop_db->     T1.premium_per_kg * 125 AS premium_per_load_cop
 coffee_coop_db-> FROM farm.certifications AS T1;
-    certification    |              issuer               | premium_per_kg_cop | premium_per_load_cop
+/*    certification    |              issuer               | premium_per_kg_cop | premium_per_load_cop
 ---------------------+-----------------------------------+--------------------+----------------------
  Rainforest Alliance | Rainforest Alliance               |             300.00 |             37500.00
  Fairtrade           | Fairtrade International           |             400.00 |             50000.00
@@ -17,3 +17,4 @@ coffee_coop_db-> FROM farm.certifications AS T1;
  Nespresso AAA       | Nespresso / Rainforest Alliance   |             350.00 |             43750.00
  Bird Friendly       | Smithsonian Migratory Bird Center |             500.00 |             62500.00
 (7 filas)
+*/

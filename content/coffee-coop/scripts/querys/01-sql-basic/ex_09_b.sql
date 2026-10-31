@@ -14,7 +14,7 @@ coffee_coop_db->     T1.observations AS observations
 coffee_coop_db-> FROM buy.quality_analyses AS T1
 coffee_coop_db-> WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 coffee_coop_db-> AND T1.moisture_pct NOT BETWEEN 10 AND 12;
-      analysis      |      delivery       | moisture_pct | yield_factor | cup_score |    analyst_name    |                          observations
+/*      analysis      |      delivery       | moisture_pct | yield_factor | cup_score |    analyst_name    |                          observations
 --------------------+---------------------+--------------+--------------+-----------+--------------------+-----------------------------------------------------------------
  QA-20260930-000026 | DLV-20260930-000005 |        12.19 |        95.42 |     78.56 | Wilson Galvis      |  QA-20260930-000018 | DLV-20260930-000006 |        17.24 |       103.31 |     79.98 | NicolÃ¡s Serrano    | CafÃ© con humedad alta, requiere mÃ¡s secado.
  QA-20260930-000017 | DLV-20260930-000012 |        12.15 |        93.62 |           | Natalia Trujillo   |  QA-20260930-000033 | DLV-20260930-000027 |        12.41 |        92.76 |           | Sara SÃ¡nchez       |
@@ -43,3 +43,4 @@ coffee_coop_db-> AND T1.moisture_pct NOT BETWEEN 10 AND 12;
  QA-20260930-000144 | DLV-20260930-000289 |        12.28 |        87.62 |           | AncÃ­zar Delgado    |
  QA-20260930-000137 | DLV-20260930-000295 |        12.35 |        91.07 |     87.14 | Sara SÃ¡nchez       |
 (40 filas)
+*/

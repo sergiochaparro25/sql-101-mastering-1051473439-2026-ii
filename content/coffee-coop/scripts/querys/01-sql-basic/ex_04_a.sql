@@ -8,7 +8,7 @@ coffee_coop_db->     T1.municipality_name AS municipality
 coffee_coop_db-> FROM geo.municipalities AS T1
 coffee_coop_db-> WHERE T1.department_code = '54'
 coffee_coop_db-> ORDER BY T1.municipality_name ASC;
- municipality_code |   municipality
+/* municipality_code |   municipality
 -------------------+-------------------
  54003             | Ábrego
  54051             | Arboledas
@@ -51,3 +51,4 @@ coffee_coop_db-> ORDER BY T1.municipality_name ASC;
  54871             | Villa Caro
  54874             | Villa Del Rosario
 (40 filas)
+*/

@@ -14,7 +14,7 @@ coffee_coop_db->     T1.net_weight_kg * T1.price_per_kg_applied AS check_gross_c
 coffee_coop_db-> FROM pay.settlements AS T1
 coffee_coop_db-> WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 coffee_coop_db-> AND T1.deductions_amount = 0;
-     settlement      |      delivery       | net_weight_kg | price_per_kg | gross_cop  | deductions_cop | check_gross_cop
+/*     settlement      |      delivery       | net_weight_kg | price_per_kg | gross_cop  | deductions_cop | check_gross_cop
 ---------------------+---------------------+---------------+--------------+------------+----------------+-----------------
  STL-20261002-000019 | DLV-20260930-000111 |        287.72 |     21454.00 | 6172744.88 |           0.00 |    6172744.8800
  STL-20261001-000023 | DLV-20260930-000112 |         46.76 |     22110.00 | 1033863.60 |           0.00 |    1033863.6000
@@ -65,3 +65,4 @@ coffee_coop_db-> AND T1.deductions_amount = 0;
  STL-20261002-000036 | DLV-20260930-000291 |        187.57 |     22013.00 | 4128978.41 |           0.00 |    4128978.4100
  STL-20261001-000007 | DLV-20260930-000298 |        122.63 |     24556.00 | 3011302.28 |           0.00 |    3011302.2800
 (48 filas)
+*/

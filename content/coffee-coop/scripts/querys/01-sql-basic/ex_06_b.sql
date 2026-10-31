@@ -10,7 +10,7 @@ coffee_coop_db-> FROM farm.farmers AS T1
 coffee_coop_db-> WHERE T1.municipality_code = '54518'
 coffee_coop_db-> AND T1.email IS NULL
 coffee_coop_db-> ORDER BY T1.last_name ASC;
-  document  |    first_name    |     last_name      | email
+/*  document  |    first_name    |     last_name      | email
 ------------+------------------+--------------------+-------
  768461420  | Marleny          | Agudelo Sandoval   |
  939635303  | Marleny          | Álvarez Correa     |
@@ -78,3 +78,4 @@ coffee_coop_db-> ORDER BY T1.last_name ASC;
  712500733  | Esperanza        | Valencia Ortiz     |
  796884051  | Yuliana          | Zapata Parra       |
 (65 filas)
+*/

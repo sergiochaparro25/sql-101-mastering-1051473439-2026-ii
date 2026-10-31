@@ -10,7 +10,7 @@ coffee_coop_db-> FROM farm.farmers AS T1
 coffee_coop_db-> WHERE T1.gender = 'F'
 coffee_coop_db-> AND T1.municipality_code = '54518'
 coffee_coop_db-> ORDER BY T1.last_name ASC, T1.first_name ASC;
-  document  |    first_name     |     last_name     |   phone
+/*  document  |    first_name     |     last_name     |   phone
 ------------+-------------------+-------------------+------------
  768461420  | Marleny           | Agudelo Sandoval  | 3242280898
  931079279  | Edilma            | Álvarez Bonilla   | 3236902029
@@ -124,3 +124,4 @@ coffee_coop_db-> ORDER BY T1.last_name ASC, T1.first_name ASC;
  224364120  | Valentina         | Zapata Valencia   | 3166445539
  338193839  | Laura             | Zuluaga Benavides | 3243686927
 (111 filas)
+*/

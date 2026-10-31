@@ -10,7 +10,7 @@ coffee_coop_db-> FROM farm.coffee_varieties AS T1
 coffee_coop_db-> WHERE T1.is_rust_resistant = FALSE
 coffee_coop_db-> AND T1.species = 'arabica'
 coffee_coop_db-> ORDER BY T1.variety_name DESC;
-    variety    | species |                      description
+/*    variety    | species |                      description
 ---------------+---------+--------------------------------------------------------
  Típica        | arabica | Variedad tradicional de porte alto.
  Pacamara      | arabica | Cruce de Pacas y Maragogipe, grano grande.
@@ -20,3 +20,4 @@ coffee_coop_db-> ORDER BY T1.variety_name DESC;
  Borbón Rosado | arabica | Variedad de especialidad de fruto rosado.
  Borbón        | arabica | Variedad tradicional de buena calidad en taza.
 (7 filas)
+*/

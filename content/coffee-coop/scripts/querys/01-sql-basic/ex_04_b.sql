@@ -9,9 +9,10 @@ coffee_coop_db-> FROM geo.municipalities AS T1
 coffee_coop_db-> WHERE T1.department_code = '54'
 coffee_coop_db-> AND T1.municipality_name LIKE 'San%'
 coffee_coop_db-> ORDER BY T1.municipality_name ASC;
- municipality_code | municipality
+/* municipality_code | municipality
 -------------------+--------------
  54670             | San Calixto
  54673             | San Cayetano
  54680             | Santiago
 (3 filas)
+*/

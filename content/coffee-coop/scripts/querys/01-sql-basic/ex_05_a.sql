@@ -6,7 +6,7 @@ coffee_coop_db->     T1.address_line AS address,
 coffee_coop_db->     T1.municipality_code AS municipality_code
 coffee_coop_db-> FROM buy.collection_points AS T1
 coffee_coop_db-> WHERE T1.is_active = FALSE;
-           point            |      address       | municipality_code
+/*           point            |      address       | municipality_code
 ----------------------------+--------------------+-------------------
  Punto de Compra El Banco 1 | Calle 17 # 34-54   | 47245
  Punto de Compra Popayán 1  | Carrera 21 # 4-95  | 19001
@@ -18,3 +18,4 @@ coffee_coop_db-> WHERE T1.is_active = FALSE;
  Punto de Compra Ulloa 1    | Calle 15 # 3-50    | 76845
  Punto de Compra Nátaga 1   | Diagonal 30 # 7-59 | 41483
 (9 filas)
+*/

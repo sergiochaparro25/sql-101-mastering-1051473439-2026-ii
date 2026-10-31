@@ -8,7 +8,7 @@ coffee_coop_db->     T1.issuing_body AS issuer,
 coffee_coop_db->     T1.premium_per_kg AS premium_per_kg_cop
 coffee_coop_db-> FROM farm.certifications AS T1
 coffee_coop_db-> ORDER BY T1.premium_per_kg DESC;
-    certification    |              issuer               | premium_per_kg_cop
+/*    certification    |              issuer               | premium_per_kg_cop
 ---------------------+-----------------------------------+--------------------
  Orgánico            | Ente certificador orgánico        |             800.00
  Bird Friendly       | Smithsonian Migratory Bird Center |             500.00
@@ -18,3 +18,4 @@ coffee_coop_db-> ORDER BY T1.premium_per_kg DESC;
  C.A.F.E. Practices  | Starbucks / SCS Global Services   |             250.00
  4C                  | 4C Services                       |             150.00
 (7 filas)
+*/

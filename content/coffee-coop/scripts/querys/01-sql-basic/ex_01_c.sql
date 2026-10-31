@@ -5,7 +5,7 @@ coffee_coop_db->        department_code AS code,
 coffee_coop_db->        department_name AS department
 coffee_coop_db-> FROM geo.departments
 coffee_coop_db-> ORDER BY department_name;
- code |                        department
+/* code |                        department
 ------+----------------------------------------------------------
  91   | Amazonas
  05   | Antioquia
@@ -40,3 +40,4 @@ coffee_coop_db-> ORDER BY department_name;
  76   | Valle Del Cauca
  97   | Vaupés
  99   | Vichada
+ */

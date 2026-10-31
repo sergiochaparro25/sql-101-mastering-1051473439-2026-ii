@@ -10,7 +10,7 @@ coffee_coop_db-> FROM farm.farms AS T1
 coffee_coop_db-> WHERE T1.municipality_code = '54518'
 coffee_coop_db-> AND (T1.latitude IS NULL OR T1.longitude IS NULL)
 coffee_coop_db-> ORDER BY T1.farm_name ASC;
-       farm       |    rural_district    | latitude | longitude
+/*       farm       |    rural_district    | latitude | longitude
 ------------------+----------------------+----------+-----------
  Altamira         | El Alizal            |          |
  Bella Vista Alta | El Rosal             |          |
@@ -166,3 +166,4 @@ coffee_coop_db-> ORDER BY T1.farm_name ASC;
  Villa Rosa       | El Alizal            |          |
  Villa Rosa       | Cunuba               |          |
 (153 filas)
+*/

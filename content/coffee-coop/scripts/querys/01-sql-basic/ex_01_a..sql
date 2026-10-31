@@ -2,7 +2,7 @@
 -- Departamentos: consultar todas las columnas y filas
 coffee_coop_db=> SELECT*
 coffee_coop_db-> FROM geo.departments;
- department_code |                     department_name
+/* department_code |                     department_name
 -----------------+----------------------------------------------------------
  05              | Antioquia
  08              | Atlántico
@@ -37,3 +37,4 @@ coffee_coop_db-> FROM geo.departments;
  95              | Guaviare
  97              | Vaupés
  99              | Vichada
+ */

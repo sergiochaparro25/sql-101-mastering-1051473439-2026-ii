@@ -13,7 +13,7 @@ coffee_coop_db->     T1.gross_weight_kg AS gross_weight_kg
 coffee_coop_db-> FROM buy.deliveries AS T1
 coffee_coop_db-> WHERE T1.delivery_id LIKE 'DLV-20260930-%'
 coffee_coop_db-> ORDER BY T1.delivered_at ASC;
-      delivery       | farm_id | collection_point_id |     received_at     |  coffee_type  | gross_weight_kg
+/*      delivery       | farm_id | collection_point_id |     received_at     |  coffee_type  | gross_weight_kg
 ---------------------+---------+---------------------+---------------------+---------------+-----------------
  DLV-20260930-000001 |  121925 |                  68 | 2026-09-30 06:01:10 | dry_parchment |           51.53
  DLV-20260930-000002 |   39639 |                  48 | 2026-09-30 06:03:32 | dry_parchment |          124.98
@@ -151,4 +151,4 @@ coffee_coop_db-> ORDER BY T1.delivered_at ASC;
  DLV-20260930-000134 |  182668 |                   3 | 2026-09-30 10:51:56 | dry_parchment |          231.81
  DLV-20260930-000135 |   63170 |                  89 | 2026-09-30 10:57:14 | dry_parchment |          210.75
  DLV-20260930-000136 |  193194 |                   3 | 2026-09-30 10:58:26 | dry_parchment |          122.17
- DLV-20260930-000137 |   23894 |                  56 | 2026-09-30 11:04:29 | dry_parchment |          209.02
+ DLV-20260930-000137 |   23894 |                  56 | 2026-09-30 11:04:29 | dry_parchment |          209.*/
